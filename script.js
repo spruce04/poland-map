@@ -21,8 +21,7 @@ const mapControl = (() => {
         let onEntry = document.getElementById("onEntry");
         startButton.addEventListener("click", () => {
             for (let l = 0; l < initMap.length; l++) {
-                if (initMap[l].namespaceURI = "title" || "footer") {
-                    console.log(initMap[l])
+                if (initMap[l].namespaceURI = "title") {
                     initMap[l].style.display = "flex";
                 }
                 else {
